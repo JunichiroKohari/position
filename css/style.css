@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&display=swap');
+
+/* 初期設定 */
+#wrapper {
+    width: 100%;
+    line-height: 1;
+    font-family: 'Noto Sans JP', 'ヒラギノ角ゴ Pro W', 'Hiragino Kaku Gothic Pro', 'メイリオ', '游ゴシック', '游ゴシック体', sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+/* ヘッダー */
+.header-main {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+    background: #F08E38;
+}
