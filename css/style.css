@@ -1,21 +1,106 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&display=swap');
 
-/* 初期設定 */
+/* -- 初期設定 ---------------------------------------- */
 #wrapper {
     width: 100%;
     line-height: 1;
     font-family: 'Noto Sans JP', 'ヒラギノ角ゴ Pro W', 'Hiragino Kaku Gothic Pro', 'メイリオ', '游ゴシック', '游ゴシック体', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
     color: #ffffff;
     overflow: hidden;
 }
 
-/* ヘッダー */
+.text {
+    line-height: 1.4;
+}
+
+/* -- ヘッダー ---------------------------------------- */
 .header-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.header-inner {
     width: 100%;
     padding: 0.5em;
     font-size: 3rem;
     font-weight: 500;
     color: #ffffff;
     background: #F08E38;
+}
+
+/* -- メイン ---------------------------------------- */
+.main-container-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 23vw;
+    margin: 11% 12% 65%;
+    background: #f2f2f2;
+}
+
+.content-a {
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    padding: 0.5em;
+    background-color: #78bf70;
+}
+.content-b {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    padding: 0.2em;
+    border-radius: 5%;
+    color: #78bf70;
+    background-color: #ffffff;
+    text-align: center;
+}
+.content-c {
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    padding: 0.5em;
+    background-color: #5485f0;
+}
+.content-d {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 11vw;
+    height: 11vw;
+    padding: 0.5em;
+    background-color: #e9503c;
+}
+.content-e {
+    position: absolute;
+    top: 60%;
+    right: 45%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #af87c9;
+}
+.content-e-text {
+    line-height: 8;
+}
+
+/* -- フッター ---------------------------------------- */
+.footer-main {
+    position: relative;
+}
+.footer-inner {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+    background: #000000;
 }
